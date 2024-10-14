@@ -9,8 +9,8 @@
     <meta name="description" content="Політика конфіденційності сайту свічкової майстерні, що пояснює, як компанія обробляє та захищає дані користувачів.">
     <meta name="keywords" content="конфіденційність, персональні дані, політика, свічкова майстерня, захист даних">
     <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.webp" />
-    <link rel="stylesheet" href="/assets/css/general.scss">
-    <link rel="stylesheet" href="/assets/css/privacy-policy.scss">
+    <link rel="stylesheet" href="/assets/css/general.css">
+    <link rel="stylesheet" href="/assets/css/privacy-policy.css">
     <title>Політика конфіденційності</title>
 </head>
 <body>

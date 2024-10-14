@@ -79,11 +79,11 @@
   box-sizing: border-box;
   color: var(--text);
 
-  &:focus {
+  /* &:focus {
     border-color: #ffbf00;
     background-color: #f7f3e9;
     outline: none;
-  }
+  } */
 }
 
 .textarea-field {
@@ -104,10 +104,10 @@
   border-radius: 4px;
   width: 100%;
   transition: background-color 0.3s ease;
+}
 
-  &:hover {
-    background-color: #ffbf00;
-  }
+.submit-button :hover {
+  background-color: #ffbf00;
 }
 
 @media (min-width: 900px) {

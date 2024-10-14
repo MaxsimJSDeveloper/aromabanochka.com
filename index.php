@@ -8,7 +8,7 @@
     <meta http-equiv="Cache-control" content="no-cache" />
     <meta name="google" content="nopagereadaloud" />
     <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.webp" />
-    <link rel="stylesheet" href="./assets/scss/style.scss">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
     <title>Продажа дорогого апаратного массажного обладнання</title>
 

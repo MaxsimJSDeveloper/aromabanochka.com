@@ -32,8 +32,9 @@
     flex-direction: row;
     gap: 40px;
     padding: 32px;
-    &:nth-child(even) {
-      flex-direction: row-reverse;
-    }
+  }
+
+  .products-list-item:nth-child(even) {
+    flex-direction: row-reverse;
   }
 }

@@ -32,18 +32,18 @@
     position: relative;
     font-size: 36px;
     margin-bottom: 30px;
+  }
 
-    &::after {
-      content: "";
-      display: block;
-      width: 100%;
-      height: 3px;
-      background-color: rgba(236, 151, 4, 0.6);
-      position: absolute;
-      left: 50%;
-      bottom: -15px;
-      transform: translateX(-50%);
-    }
+  .advantages-description-title::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: rgba(236, 151, 4, 0.6);
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    transform: translateX(-50%);
   }
 }
 
