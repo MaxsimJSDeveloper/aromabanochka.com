@@ -7,8 +7,8 @@
         </div>
         <nav class="nav" aria-label="Основна навігація">
             <ul class="nav-list">
-                <li class="nav-item"><a class="nav-item-link" href="#about">Про нас</a></li>
-                <li class="nav-item"><a class="nav-item-link" href="#products">Товари</a></li>
+                <li class="nav-item"><a class="nav-item-link" href="#services">Послуги</a></li>
+                <li class="nav-item"><a class="nav-item-link" href="#parties">Вечірки</a></li>
                 <li class="nav-item"><a class="nav-item-link" href="#advantages">Переваги</a></li>
                 <li class="nav-item"><a class="nav-item-link" href="#booking">Контакти</a></li>
             </ul>

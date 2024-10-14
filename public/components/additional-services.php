@@ -1,6 +1,6 @@
-<section id="products" class="section-indentation section-color">
+<section id="parties" class="section-indentation section-color">
   <div class="container container-products">
-    <h2 class="title">Додаткові послуги</h2>
+    <h2 class="title">Вечірки</h2>
 
     <ul class="products-list">
       <li class="products-list-item">
