@@ -1,8 +1,8 @@
 <section class="section-indentation bg-img" aria-labelledby="booking-heading">
-    <div class="container full-size">
-        <h1 class="main-title">Ексклюзивне обладнання для масажу</h1>
-        <div class="about-btn-wrap">
-            <a href="#booking" class="main-nav-button">Замовити</a>
+    <div class="container">
+        <div class="main-content">
+            <div class="main-title-wrap"><h1 class="main-title">Свічкова майстерня</h1></div>
+            <p class="main-descr">Свічки, що дарують атмосферу!</p>
         </div>
     </div>
 </section>

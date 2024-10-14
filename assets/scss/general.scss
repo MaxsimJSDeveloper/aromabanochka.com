@@ -1,30 +1,22 @@
+:root {
+  --font-family: "Lato", sans-serif;
+  --second-family: "Playfair Display", sans-serif;
+  --title: #ec9704;
+  --text: #333;
+}
+
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
-@font-face {
-  font-family: "Lora";
-  src: url("../fonts/Lora-Medium.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("../fonts/Inter28pt-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
 body {
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-family);
+  color: var(--text);
   font-size: 20px;
   font-weight: 400;
   margin: 0;
-  background-color: #212121;
+  background: linear-gradient(to bottom, #d8c5a2, #ffb26e);
 }
 
 h1,
@@ -73,10 +65,6 @@ nav {
   padding-bottom: 40px;
 }
 
-.section-color {
-  background-color: #2f2f2f;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -98,15 +86,15 @@ nav {
 
 @media (min-width: 768px) {
   .container {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 60px;
+    padding-left: 60px;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .container {
-    padding-right: 60px;
-    padding-left: 60px;
+    padding-right: 120px;
+    padding-left: 120px;
   }
 
   .section-indentation {
@@ -116,10 +104,10 @@ nav {
 }
 
 .title {
-  font-family: "Lora", serif;
-  font-size: 36px;
+  font-family: var(--second-family);
+  color: var(--title);
+  font-size: 32px;
   font-weight: 500;
   margin-bottom: 20px;
-  color: #bc992e;
   text-align: center;
 }

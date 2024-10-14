@@ -50,8 +50,13 @@
             >Перейти</a
           >
         </div>
+        <img class="contact-img" src="./assets/img/map.webp" alt="карта" width="200">
       </div>
-      <form class="application-form" id="myForm" aria-labelledby="booking-heading">
+      <form
+        class="application-form"
+        id="myForm"
+        aria-labelledby="booking-heading"
+      >
         <div class="input-container">
           <svg class="icon" aria-hidden="true" focusable="false">
             <use href="./assets/img/symbol-defs.svg#icon-user"></use>
@@ -93,26 +98,6 @@
             aria-label="Телефон"
           />
         </div>
-
-        <div class="input-container">
-          <label for="equipment_type" class="visually-hidden"
-            >Тип масажного обладнання</label
-          >
-          <select
-            name="equipment_type"
-            id="equipment_type"
-            class="select-field"
-            required
-            aria-label="Тип масажного обладнання"
-          >
-            <option value="" disabled selected>Виберіть тип масажного обладнання</option>
-            <option value="Infrared Massager">Інфрачервоний масажер</option>
-            <option value="Hydro Massage Bath">Гідромасажна ванна</option>
-            <option value="Massage Table">Масажний стіл</option>
-            <option value="Massage Chair">Масажне крісло</option>
-          </select>
-        </div>
-
         <div class="input-container">
           <textarea
             name="message"

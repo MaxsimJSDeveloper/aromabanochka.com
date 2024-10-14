@@ -8,7 +8,7 @@
     <meta http-equiv="Cache-control" content="no-cache" />
     <meta name="google" content="nopagereadaloud" />
     <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.webp" />
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/scss/style.scss">
 
     <title>Продажа дорогого апаратного массажного обладнання</title>
 
@@ -21,8 +21,8 @@
     <?php include './public/components/header.php' ?>
     <main>
         <?php include './public/components/main.php' ?>
-        <?php include './public/components/about.php' ?>
-        <?php include './public/components/products.php' ?>
+        <?php include './public/components/services.php' ?>
+        <?php include './public/components/additional-services.php' ?>
         <?php include './public/components/advantages.php' ?>
         <?php include './public/components/contacts.php' ?>
     </main>

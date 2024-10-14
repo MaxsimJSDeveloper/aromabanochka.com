@@ -1,8 +1,21 @@
 .contact-wrap {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px;
-  max-width: 1000px;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 100%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: rgba(249, 245, 232, 0.8);
+}
+
+.contact-img {
   margin: 0 auto;
 }
 
@@ -13,32 +26,32 @@
 }
 
 .contact-icon {
-  fill: #bc992e;
+  fill: var(--title);
   margin-right: 10px;
 }
 
 .contact-text,
 .contact-link {
-  color: #ffecb3;
+  color: var(--text);
   font-size: 14px;
 }
 
 .contact-link {
   transition: color 0.3s ease;
-}
 
-.contact-link:hover {
-  color: #bc992e;
+  &:hover {
+    color: #bc992e;
+  }
 }
 
 .application-form {
-  background: #2f2f2f;
-  padding: 30px;
+  background-color: rgba(249, 245, 232, 0.8);
+  padding: 10px;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-  max-width: 450px;
+  max-width: 100%;
   margin: 0 auto;
-  color: #ffecb3;
+  color: var(--text);
 }
 
 .input-container {
@@ -53,25 +66,24 @@
   width: 20px;
   height: 20px;
   pointer-events: none;
-  fill: #bc992e;
+  fill: var(--title);
 }
 
 .input-field,
 .select-field,
 .textarea-field {
   padding: 10px 10px 10px 30px;
-  border: 1px solid #bc992e;
+  border: 1px solid var(--title);
   border-radius: 4px;
   width: 100%;
   box-sizing: border-box;
-  background-color: #212121;
-  color: #ffecb3;
-}
+  color: var(--text);
 
-.input-field::placeholder,
-.select-field::placeholder,
-.textarea-field::placeholder {
-  color: #ffecb3;
+  &:focus {
+    border-color: #ffbf00;
+    background-color: #f7f3e9;
+    outline: none;
+  }
 }
 
 .textarea-field {
@@ -81,38 +93,37 @@
 
 .checkbox {
   margin-right: 5px;
-  accent-color: #bc992e;
+  accent-color: var(--title);
 }
 
 .submit-button {
-  background-color: #bc992e;
+  background-color: var(--title);
   color: #fff;
   border: none;
   padding: 10px;
   border-radius: 4px;
-  cursor: pointer;
   width: 100%;
   transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #ffbf00;
+  }
 }
 
-.submit-button:hover {
-  background-color: #ffecb3;
-  color: #212121;
-}
-
-@media (max-width: 768px) {
+@media (min-width: 900px) {
   .contact-wrap {
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1000px;
   }
 
   .application-form {
-    max-width: 90%;
-    padding: 15px;
+    padding: 40px;
+    max-width: 500px;
   }
-}
 
-@media (max-width: 480px) {
-  .application-form {
-    padding: 10px;
+  .contact-item {
+    height: 450px;
+    padding: 20px;
   }
 }
