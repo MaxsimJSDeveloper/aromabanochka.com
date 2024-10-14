@@ -10,10 +10,10 @@
     <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.webp" />
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <title>Продажа дорогого апаратного массажного обладнання</title>
+    <title>Свічкова майстерня - створення свічок для пар та свят</title>
 
-    <meta name="description" content="Спеціалізуємося на продажу високоякісного апаратного масажного обладнання. Наші продукти допоможуть вам досягти релаксації та покращити загальне самопочуття." />
-    <meta name="keywords" content="апаратне масажне обладнання, продаж масажерів, високоякісне обладнання, релаксація, здоров'я, wellness, масаж" />
+    <meta name="description" content="Запрошуємо вас до нашої свічкової майстерні, де ви можете навчитися створювати унікальні свічки для особливих моментів, індивідуальних занять, свят і корпоративів." />
+    <meta name="keywords" content="свічкова майстерня, свічки для пар, майстер-класи, індивідуальні заняття, свята, корпоративи, створення свічок" />
     <meta name="robots" content="index, follow" />
 </head>
 
@@ -26,6 +26,8 @@
         <?php include './public/components/advantages.php' ?>
         <?php include './public/components/contacts.php' ?>
     </main>
+    <?php include './public/components/footer.php' ?>
+
     <?php include './public/components/nav-modal.php' ?>
     <?php include './public/components/cookie-notice.php' ?>
     

@@ -7,51 +7,52 @@
     <h2 id="booking-heading" class="visually-hidden">Форма бронювання</h2>
     <div class="contact-wrap">
       <div class="contact-item">
-        <div class="contact-box">
-          <svg class="contact-icon" width="20" height="20" aria-label="Адреса">
+    <div class="contact-box">
+        <svg class="contact-icon" width="20" height="20" aria-label="Адреса">
             <use href="./assets/img/symbol-defs.svg#icon-city"></use>
-          </svg>
-          <span class="contact-text">
-            Вул. Тараса Шевченка, 15, Київ, 01001, Україна
-          </span>
-        </div>
-        <div class="contact-box">
-          <svg class="contact-icon" width="20" height="20" aria-label="Телефон">
+        </svg>
+        <span class="contact-text">
+            Вул. Прорізна, 7, Київ, 01601, Україна
+        </span>
+    </div>
+    <div class="contact-box">
+        <svg class="contact-icon" width="20" height="20" aria-label="Телефон">
             <use href="./assets/img/symbol-defs.svg#icon-phone"></use>
-          </svg>
-          <span class="contact-text">+380 44 123 45 67</span>
-        </div>
-        <div class="contact-box">
-          <svg class="contact-icon" width="20" height="20" aria-label="Email">
+        </svg>
+        <span class="contact-text">+380 67 123 45 67</span>
+    </div>
+    <div class="contact-box">
+        <svg class="contact-icon" width="20" height="20" aria-label="Email">
             <use href="./assets/img/symbol-defs.svg#icon-email"></use>
-          </svg>
-          <a
+        </svg>
+        <a
             class="contact-link"
-            href="mailto:info@newcompany.com"
+            href="mailto:info@svichkymaysternya.com"
             aria-label="Написати на email"
-            >info@newcompany.com</a
-          >
-        </div>
-        <div class="contact-box">
-          <svg
+            >info@svichkymaysternya.com</a
+        >
+    </div>
+    <div class="contact-box">
+        <svg
             class="contact-icon"
             width="20"
             height="20"
             aria-label="Місцезнаходження"
-          >
+        >
             <use href="./assets/img/symbol-defs.svg#icon-map"></use>
-          </svg>
-          <a
+        </svg>
+        <a
             class="contact-link"
-            href="https://www.google.com/maps?q=Київ,+вул.+Тараса+Шевченка,+15"
+            href="https://www.google.com/maps?q=Київ,+вул.+Прорізна,+7"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Відкрити на карті"
             >Перейти</a
-          >
-        </div>
-        <img class="contact-img" src="./assets/img/map.webp" alt="карта" width="200">
-      </div>
+        >
+    </div>
+    <img class="contact-img" src="./assets/img/map.webp" alt="карта" width="200">
+</div>
+
       <form
         class="application-form"
         id="myForm"
@@ -102,8 +103,8 @@
           <textarea
             name="message"
             class="textarea-field"
-            placeholder="Додаткові запити"
-            aria-label="Додаткові запити"
+            placeholder="Коментар до замовлення"
+            aria-label="Коментар до замовлення"
           ></textarea>
         </div>
 
