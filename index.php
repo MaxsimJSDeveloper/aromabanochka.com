@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="uk" itemscope itemtype="https://schema.org/Organization">
 
 <head>
     <meta charset="UTF-8">
@@ -15,6 +15,11 @@
     <meta name="description" content="Запрошуємо вас до нашої свічкової майстерні, де ви можете навчитися створювати унікальні свічки для особливих моментів, індивідуальних занять, свят і корпоративів." />
     <meta name="keywords" content="свічкова майстерня, свічки для пар, майстер-класи, індивідуальні заняття, свята, корпоративи, створення свічок" />
     <meta name="robots" content="index, follow" />
+
+    <meta itemprop="name" content="Свічкова майстерня">
+    <meta itemprop="address" content="Вул. Прорізна, 7, Київ, 01601, Україна">
+    <meta itemprop="telephone" content="+380671234567">
+    <meta itemprop="email" content="info@svichkymaysternya.com">
 </head>
 
 <body>

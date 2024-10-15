@@ -1,9 +1,10 @@
-<header class="header">
+<header class="header" itemscope itemtype="https://schema.org/Organization">
     <div class="header-container">
-        <div class="logo" role="img" aria-label="Логотип компанії">
+        <div class="logo" role="img" aria-label="Логотип компанії" itemprop="logo">
             <svg class="logo-svg">
                 <use href="./assets/img/symbol-defs.svg#icon-candle"></use>
             </svg>
+            <a class="logo-txt" href="">aromabanochka</a>
         </div>
         <nav class="nav" aria-label="Основна навігація">
             <ul class="nav-list">

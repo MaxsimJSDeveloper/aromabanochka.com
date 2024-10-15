@@ -2,8 +2,8 @@
   position: relative;
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.1),
-      rgba(30, 30, 35, 0.2)
+      rgba(33, 25, 25, 0.4),
+      rgba(51, 31, 31, 0.5)
     ),
     url("../img/candlelight.webp");
   background-repeat: no-repeat;
