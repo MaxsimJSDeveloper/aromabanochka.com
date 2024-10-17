@@ -30,12 +30,12 @@
   cursor: pointer;
 }
 
-#accept-cookies {
+.accept-cookies {
   background-color: #caffcc;
   color: #4caf50;
 }
 
-#reject-cookies {
+.reject-cookies {
   background-color: #ffcdd2;
   color: #d32f2f;
 }

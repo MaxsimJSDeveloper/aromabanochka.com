@@ -28,8 +28,8 @@
   justify-content: center;
   gap: 10px;
   border-radius: 20px;
-  width: 700px;
-  height: 120px;
+  max-width: 700px;
+  padding: 20px 15px;
   background-color: #f9f5e8a5;
 }
 

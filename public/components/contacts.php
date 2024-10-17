@@ -23,7 +23,7 @@
                     <svg class="contact-icon" width="20" height="20" aria-label="Email">
                         <use href="./assets/img/symbol-defs.svg#icon-email"></use>
                     </svg>
-                    <a class="contact-link" href="mailto:info@aromabanochka.com" aria-label="Написати на email" itemprop="email">info@svichkymaysternya.com</a>
+                    <a class="contact-link" href="mailto:info@aromabanochka.com" aria-label="Написати на email" itemprop="email">info@aromabanochka.com</a>
                 </div>
                 <img class="contact-img" src="./assets/img/map.webp" alt="карта" width="200" />
             </div>
@@ -38,7 +38,7 @@
 
                 <div class="input-container">
                     <svg class="icon" aria-hidden="true" focusable="false">
-                        <use href="./assets/img/symbol-defs.svg#icon-map"></use>
+                        <use href="./assets/img/symbol-defs.svg#icon-email"></use>
                     </svg>
                     <input type="email" name="email" class="input-field" placeholder="Email" required aria-label="Email" itemprop="email" />
                 </div>

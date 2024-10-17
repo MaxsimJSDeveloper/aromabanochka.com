@@ -84,5 +84,8 @@
             </div>
         </div>
     </div>
+        <div class="home-btn">
+        <a class="privacy-policy-link" href="/" aria-label="Повернутися на головну">Повернутися на головну</a>
+    </div>
 </body>
 </html>
