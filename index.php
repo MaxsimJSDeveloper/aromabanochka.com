@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="uk" itemscope itemtype="https://schema.org/Organization">
+<html lang="uk" itemscope itemtype="https://schema.org/WebSite">
 
 <head>
     <meta charset="UTF-8">

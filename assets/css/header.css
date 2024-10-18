@@ -27,6 +27,7 @@
 }
 
 .logo-txt {
+  font-family: var(--second-family);
   color: #fafafa;
   text-transform: capitalize;
   margin-left: 10px;

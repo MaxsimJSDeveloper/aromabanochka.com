@@ -105,7 +105,7 @@ nav {
 
 .title {
   font-family: var(--second-family);
-  color: var(--title);
+  color: #2a2a2a;
   font-size: 32px;
   font-weight: 500;
   margin-bottom: 20px;

@@ -1,29 +1,25 @@
-<section id="booking" class="section-indentation" aria-labelledby="booking-heading" itemscope itemtype="https://schema.org/LocalBusiness">
+<section id="booking" class="section-indentation" aria-labelledby="booking-heading">
     <div class="container">
         <h2 id="booking-heading" class="visually-hidden">Форма бронювання</h2>
         <div class="contact-wrap">
             <div class="contact-item">
-                <div class="contact-box" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                <div class="contact-box">
                     <svg class="contact-icon" width="20" height="20" aria-label="Адреса">
                         <use href="./assets/img/symbol-defs.svg#icon-city"></use>
                     </svg>
-                    <span class="contact-text" itemprop="streetAddress">Вул. Прорізна, 7, Київ, 01601, Україна</span>
-                    <meta itemprop="addressLocality" content="Київ">
-                    <meta itemprop="addressRegion" content="Київська область">
-                    <meta itemprop="postalCode" content="01601">
-                    <meta itemprop="addressCountry" content="Україна">
+                    <span class="contact-text">Вул. Прорізна, 7, Київ, 01601, Україна</span>
                 </div>
                 <div class="contact-box">
                     <svg class="contact-icon" width="20" height="20" aria-label="Телефон">
                         <use href="./assets/img/symbol-defs.svg#icon-phone"></use>
                     </svg>
-                    <span class="contact-text" itemprop="telephone">+380 67 123 45 67</span>
+                    <span class="contact-text">+380 69 123 45 67</span>
                 </div>
                 <div class="contact-box">
                     <svg class="contact-icon" width="20" height="20" aria-label="Email">
                         <use href="./assets/img/symbol-defs.svg#icon-email"></use>
                     </svg>
-                    <a class="contact-link" href="mailto:info@aromabanochka.com" aria-label="Написати на email" itemprop="email">info@aromabanochka.com</a>
+                    <a class="contact-link" href="mailto:info@aromabanochka.com" aria-label="Написати на email">info@aromabanochka.com</a>
                 </div>
                 <img class="contact-img" src="./assets/img/map.webp" alt="карта" width="200" />
             </div>
@@ -62,13 +58,12 @@
                     </label>
                 </div>
 
-                <input type="submit" value="Надіслати" class="submit-button" />
-            </form>
+            <input type="submit" value="Надіслати" class="submit-button" />
+        </form>
 
-            <div id="successMessage">
-                Дані успішно надіслані!
-            </div>
-
+        <div id="successMessage" style="display: none;">
+            Дані успішно надіслані!
+        </div>
         </div>
     </div>
 </section>

@@ -14,14 +14,14 @@
             </li>
             <li class="service-item" itemscope itemtype="https://schema.org/Service">
                 <h3 class="service-title" itemprop="serviceType">Індивідуальні заняття</h3>
-                <img class="service-img" src="./assets/img/candle-making.webp" alt="Індивідуальні заняття" width="300">
+                <img class="service-img" src="./assets/img/individual.webp" alt="Індивідуальні заняття" width="300">
                 <p class="service-descr" itemprop="description">
                     Індивідуальні заняття для тих, хто хоче зануритися в магію свічкового мистецтва. Ви зможете працювати в комфортній та затишній атмосфері під керівництвом досвідченого майстра.
                 </p>
             </li>
             <li class="service-item" itemscope itemtype="https://schema.org/Service">
                 <h3 class="service-title" itemprop="serviceType">Групові заняття</h3>
-                <img class="service-img" src="./assets/img/lovers-creating-candles.webp" alt="Групові заняття" width="300">
+                <img class="service-img" src="./assets/img/together-candle.webp" alt="Групові заняття" width="300">
                 <p class="service-descr" itemprop="description">
                     Запрошуємо вас на заняття для пар, де творчість та романтика зливаються в одне! Майстер-класи призначені для тих, хто хоче провести час разом, занурившись у процес виготовлення свічок.
                 </p>
